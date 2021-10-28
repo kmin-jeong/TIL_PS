@@ -24,6 +24,6 @@ for i in range(1, N+1):
     res.append(check.count(1))
 m = max(res)
 for i in range(N):
-    if res[i] == m:
+    if res[i] == m:  
         print(i+1, end=' ')
 print()
